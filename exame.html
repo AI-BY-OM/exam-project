@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exam project</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style type="text/css">
+    header {
+      margin-top: 50px;
+    }
+    .navbar {
+      color: blue;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border: 1px solid blue;
+      border-radius: 5px;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .body-content {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .body-content div {
+      border: 1px solid blue;
+    }
+    h1 {
+      margin-top: 100px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    .btn-primary {
+      color: blue;
+    }
+    .courses {
+      background-color: rgb(225, 253, 244);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .star-rating {
+      color: gold;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    @media (max-width: 768px) {
+      .body-content {
+        flex-direction: column;
+      }
+      .card-deck {
+        flex-direction: column;
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  </style>
+    
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b style="color: chocolate; font-size: large;">E</b>duport</a>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Category</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Demos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">MegaMenu</a></li>
+          <input type="text" placeholder="search" class="bi bi-search">
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="body-content">
+    <!-- body part -->
+    <div class="navbar"><i class="bi bi-laptop" style="color: blue;"></i> <b>10k</b> online courses</div>
+    <div class="navbar"><i class="bi bi-person-fill" style="color: blue;"></i> <b>100+</b> expert tutors</div>
+    <div class="navbar"><i class="bi bi-person-arms-up" style="color: blue;"></i> <b>50k+</b> online students</div>
+    <div class="navbar"><i class="bi bi-check-circle-fill" style="color: blue;"></i> <b>20k+</b> certified courses</div>
+  </div>
+  <div class="most">
+    <div class="container-fluid" width="100%">
+      <h1>Most popular Courses</h1>
+      <span style="margin-left: 200px;">Choose from hundreds of courses from specialist organizations</span>
+    </div>
+  </div>
+  <!-- card -->
+  <div class="courses">
+    <button type="button" class="btn btn-primary" style="color: aliceblue;">Web design</button>
+    <button type="button" class="btn btn-primary" style="color: aliceblue;">Development</button>
+    <button type="button" class="btn btn-primary" style="color: aliceblue;">Graphic Design</button>
+    <button type="button" class="btn btn-primary" style="color: aliceblue;">Marketing</button>
+    <button type="button" class="btn btn-primary" style="color: aliceblue;">Finance</button>
+  </div>
+  <div class="card-deck d-flex flex-wrap">
+    <div class="card">
+      <img src="../webexam/course1.png" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title">Sketch from A to Z:for app designer</h5>
+        <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          <span style="color: black;">4.4/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../webexam/course2.png" class="card-img-top" alt="Course 2">
+      <div class="card-body">
+        <h5 class="card-title">Graphic Design Masterclass</h5>
+        <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end Rooms.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+          <span style="color: black;">4.4/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../webexam/course3.png" class="card-img-top" alt="Course 3">
+      <div class="card-body">
+        <h5 class="card-title">Create a Design System in Figma</h5>
+        <p class="card-text">Rooms oh fully taken by worse do. Points afraid but may end afraid but.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <span style="color: black;">4.4/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../webexam/course4.png" class="card-img-top" alt="Course 4">
+      <div class="card-body">
+        <h5 class="card-title">Deep Learning with React-Native</h5>
+        <p class="card-text">Far advanced settling say finished raillery. Offered chiefly farther.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <span style="color: black;">4.3/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <!-- card -->
+  <div class="card-deck d-flex flex-wrap">
+    <div class="card">
+      <img src="../webexam/course1.png" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title">Sketch from A to Z:for app designer</h5>
+        <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          <span style="color: black;">4.4/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../webexam/course2.png" class="card-img-top" alt="Course 2">
+      <div class="card-body">
+        <h5 class="card-title">Graphic Design Masterclass</h5>
+        <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end Rooms.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+          <span style="color: black;">4.2/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../webexam/course3.png" class="card-img-top" alt="Course 3">
+      <div class="card-body">
+        <h5 class="card-title">Create a Design System in Figma</h5>
+        <p class="card-text">Rooms oh fully taken by worse do. Points afraid but may end afraid but.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <span style="color: black;">4.2/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../webexam/course4.png" class="card-img-top" alt="Course 4">
+      <div class="card-body">
+        <h5 class="card-title">Deep Learning with React-Native</h5>
+        <p class="card-text">Far advanced settling say finished raillery. Offered chiefly farther.</p>
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <span style="color: black;">4.4/5</span>
+          <br>
+          <span class="bi bi-stopwatch-fill" style="color: rgb(141, 50, 50);"><b>9h 56 minute</b></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="container-fluid " style="background-color: rgb(240, 233, 233); "  >
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Company</h5>
+        <ul class="list-unstyled">
+          <span>Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.</span>
+
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Teaching</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Become a teacher</a></li>
+          <li><a href="#">How to guide</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Community</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Faq</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact</h5>
+        <p>Toll free: +1234 568 963</p>
+        <p>Email: example@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+  <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-rmNleHIf+dGQ9kYw5lM5t5K5t5X5X5L5L5L5M5M5M5M5M5M5M5M5M5M5M5" 
+        crossorigin="anonymous"></script>
+</body>
+</html>
